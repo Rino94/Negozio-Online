@@ -1,0 +1,48 @@
+
+PROBLEM STATEMENT
+(Negozio-Online)
+
+
+1.PROBLEMA
+Secondo dati Eurostat solo l’11% degli italiani hanno effettuato, negli ultimi 3 mesi, acquisti online. In confronto con il 35% della media europea e il 65% degli e-shopper inglesi. Siamo in fondo alla classifica europea per l’e-commerce. Gli italiani sono diffidenti nei confronti del canale digitale soprattutto per il bisogno di voler toccare la merce(40%), i timori verso il pagamento online(31%), il timore di non ricevere il prodotto(27%) ma anche la paura che il recesso sia complicato(26%).  
+Nella pianificazione di un negozio online, di fondamentale importanza  è l’organizzazione del magazzino (gestire i vari settori, giacenza, entrare e uscite). Permettere una gestione telematica di tali attività non solo semplifica il lavoro per la gestione del magazzino ma rende migliore la comunicazione e l’interazione con l’utente che può, ad esempio, conoscere in tempo reale la presenza o meno e la quantità di un particolare prodotto in magazzino.
+
+2 . SCENARI
+2.1
+Nome Scenario : Conferma Acquisto
+Marco è un cliente che accede al sito inserendo l’URL corrispondente,  inserisce le proprie credenziali per l’accesso  , il sistema risponde aprendo l’home-page mostrandogli tutte le possibili operazioni che può effettuare. Marco clicca dal menu una categoria di prodotti selezionando la sottocategoria del prodotto e il sistema risponde mostrandogli tutti i prodotti per quella categoria che può acquistare ; Marco sceglie i prodotti che vuole acquistare e li aggiunge al carrello, Marco conferma di voler acquistare i prodotti inserendo le credenziali e il sistema risponde con l’avvenuta richiesta. Marco si disconnette. 
+2.2
+Nome Scenario: Inserimento Prodotti
+Gianluca è un capo Magazzino ,accede alla proprio portale inserendo L’URL corrispondente. Gianluca accede al portale con le sue credenziali, il sistema risponde mostrandogli l’area riservata con le operazioni che può effettuare; Gianluca decide di voler effettuare un nuovo ordine cliccando su inserimento prodotto, il sistema gli mostra i campi di inserimento ,Gianluca conferma il nuovo ordine ed il sistema risponde con l’avvenuta richiesta. Gianluca si disconnette.
+
+2.3
+Nome scenario: Inserisci Personale
+Antonio  è un Amministratore, accede al portale relativo al personale inserendo l’URL corrispondente. Antonio accede al portale effettuando il login, il sistema risponde mostrandogli le operazioni che può effettuare nell’area riservata; Antonio decide di aggiungere del personale, compila i campi per l’inserimento e conferma; il sistema conferma  l’avvenuta aggiunta. Antonio si disconnette.
+3.OBIETTIVI
+Obiettivi del progetto “Negozio Online” sono sviluppare un’applicazione web-based in grado di:
+1. Offrire un supporto telematico per la gestione del magazzino.
+2. Offrire un interfaccia semplice, chiara ed intuitiva che stimoli l’utente ad usufruire del servizio.
+3. Offrire un’area per l’assistenza immediata al cliente.
+5. Offrire la possibilità di ordinare prodotti.
+
+4. REQUISITI FUNZIONALI
+“Negozio Online” supporta 5 utenti:
+1.	 Amministratore: deve avere permessi speciali per poter aggiungere e/o eliminare altri tipi di utenti.
+2.	Gestore del Magazzino: deve gestire le entrate e le uscite dei vari prodotti dal magazzino.
+3.	Capo Magazzino: deve contattare i fornitori per rifornire il magazzino.
+4.	Staff Assistenza: deve discutere col cliente, consigliare e informare sui prodotti.
+5.	Cliente: deve registrarsi al sito, chiedere assistenza, controllare informazioni sui prodotti , prenotare prodotti. 
+5.REQUISITI NON FUNZIONALI
+1.	Usabilità: il sistema verrà utilizzato da diversi tipi di utenti perché ognuno avrà bisogno di accedere a   determinate informazioni ed effettuare determinate azioni. 
+2.	Affidabilità:  il sistema deve essere affidabile . Bisogna, infatti,  gestire al meglio eventuali crash del sistema per non compromettere le sue funzionalità. Il sistema è basato sul web e su un server di database relazionale.
+3.	Efficienza:  si presuppone che il sistema svolga i propri compiti in tempi accettabili e utilizzando nel miglior modo le risorse disponibili.
+4.	Supportabilità : il software deve essere facilmente modificabile a fronte di ogni evenienza.
+5.	Funzionalità: il sistema deve soddisfare le esigenze esplicite e implicite che vengono evidenziate in fase di raccolta e analisi dei requisiti.
+6.	Interfaccia: Il sistema è essenzialmente web-based.
+7.	Sicurezza: Il sistema deve essere sicuro, deve essere protetto da accessi non autorizzati. Ogni utente deve poter accedere alla propria area, e le transizioni devo avvenire in modo sicuro.
+6.TARGET ENVIRONMENT
+•	Per qualsiasi utente che sia interessato a prenotare prodotti informatici utilizzando un qualsiasi tipo di browser.
+•	Per qualsiasi società, imprenditore o azienda che è interessata ad organizzare un negozio e-commerce utilizzando un qualsiasi tipo di browser.
+
+
+
